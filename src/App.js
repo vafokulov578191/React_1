@@ -1,6 +1,9 @@
+import React from 'react';
 import './App.css';
 import Main from './components/main/Main.jsx'
 import Header from './components/header/Header.jsx'
+// import Count from './components/count/Count.jsx';
+
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
           <Main/>
           <Main/>
           <Main/>
+        </div>
+        <div className="changer">
+          {/* <Count/> */}
         </div>
     </div>
   );
